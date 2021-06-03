@@ -173,6 +173,7 @@ data "aws_iam_policy_document" "default" {
       "autoscaling:DetachInstances",
       "autoscaling:PutScheduledUpdateGroupAction",
       "autoscaling:ResumeProcesses",
+      "autoscaling:SetInstanceProtection",
       "autoscaling:SetDesiredCapacity",
       "autoscaling:SuspendProcesses",
       "autoscaling:TerminateInstanceInAutoScalingGroup",
